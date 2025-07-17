@@ -1,0 +1,23 @@
+.timerWrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 20px;
+}
+
+.timerText {
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.dateText {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 15px rgba(0,0,0,0.5);
+}

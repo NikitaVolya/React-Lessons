@@ -24,6 +24,19 @@ function Login() {
     const [passwod, setPassowrd] = useState('');
     const [login, setLogin] = useState('');
 
+    const getStatusStyle = () => {
+        return {
+            display: loginState === LoginState.None ? "none" : "block",
+            marginTop: "1rem",
+            padding: "0.5rem",
+            textAlign: "center",
+            borderRadius: "4px",
+            fontWeight: "bold",
+            backgroundColor: loginState === LoginState.Successful ? "#d4edda" : "#f8d7da",
+            color: loginState === LoginState.Successful ? "#155724" : "#721c24",
+        }
+    }
+
     const onSubmit = (e) => {
         e.preventDefault();
 
@@ -53,7 +66,7 @@ function Login() {
             <input type="password" placeholder="Password" required onChange={(e) => setPassowrd(e.target.value)} minLength={6}/>
             <button type="submit">Sign In</button>
             
-            <div className={`status ${loginState}`}> { statusMessage } </div>
+            <div style={getStatusStyle()}> { statusMessage } </div>
         </form>
     </>
 
