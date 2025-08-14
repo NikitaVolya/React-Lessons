@@ -1,0 +1,132 @@
+
+.sport-club-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.trainer-creator-form {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.trainer-creator-form h3 {
+  width: 100%;
+  margin-top: 0;
+}
+
+.trainer-creator-form label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.trainer-creator-form input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.trainer-creator-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.trainer-creator-form button:hover {
+  background-color: #0056b3;
+}
+
+
+.trainers-table-container {
+  flex: 1; 
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+
+.trainerRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.trainerRow:last-child {
+  border-bottom: none;
+}
+
+.trainerRow input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.trainerRow label {
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.trainerRow button {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.trainerRow button:hover {
+  background-color: #c82333;
+}
+
+.trainer-report-container {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: #343a40;
+}
+
+.report-item {
+    display: flex;
+    align-items: baseline;
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.report-item:last-child {
+    border-bottom: none;
+}
+
+.report-item-label {
+    font-weight: 700;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+
+.report-item-value {
+    color: #495057;
+    word-break: break-all;
+}
