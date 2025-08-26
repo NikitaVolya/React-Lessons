@@ -1,0 +1,19 @@
+.faculty-container {
+  background: #fffbea;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.group-card {
+  margin-top: 15px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.group-card h4 {
+  margin-bottom: 8px;
+}

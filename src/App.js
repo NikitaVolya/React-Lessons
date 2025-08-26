@@ -19,6 +19,7 @@ import Mausoleum from "./components/Lesson10/wonders/Mausoleum";
 import Colossus from "./components/Lesson10/wonders/Colossus";
 import Lighthouse from "./components/Lesson10/wonders/Ligthouse";
 import HangingGardens from "./components/Lesson10/wonders/HangingGardens";
+import Lesson8 from './components/Lesson8/Lesson8';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         <Route path="/lesson6" element={<Lesson6/>}/>
         <Route path="/lesson7" element={<Lesson7/>}/>
+        <Route path="/lesson8" element={<Lesson8/>}/>
         <Route path="/lesson9" element={<Lesson9/>}/>
         <Route path="/lesson10">
           <Route path="painter">

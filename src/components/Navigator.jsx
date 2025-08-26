@@ -20,6 +20,11 @@ class Navigator extends React.Component {
                         </NavLink>
                     </li>
                     <li>
+                        <NavLink to="/lesson8" className="nav-link">
+                            Урок 8 | Модуль 8. Фрагменти. Портали. Refs
+                        </NavLink>
+                    </li>
+                    <li>
                         <NavLink to="/lesson9" className="nav-link">
                             Урок 9
                         </NavLink>
